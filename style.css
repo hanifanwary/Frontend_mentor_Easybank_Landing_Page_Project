@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navitem, ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.navlink:hover {
+    border-bottom: 2px solid hsl(136, 65%, 51%);
+    font-weight: bold;
+}
+
+header {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.features{
+    background-color: hsl(220, 16%, 96%);
+}
+
+.articles{
+    background-color: hsl(0, 0%, 98%);
+}
+
+.btn1 {
+    background-color: hsl(136, 65%, 51%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1em;
+    font-weight:bold;
+}
+
+.textLogo{
+    background-color: antiquewhite;
+}
+
+.Link2 li a{
+    background-color: transparent;
+    color: white;
+}
+
+.icon1 a img:hover {
+    background-color: hsl(192, 70%, 51%);
+}
+
+.Link2 .ink2a:hover {
+    color: hsl(192, 70%, 51%);
+    font-weight: bold;
+}
+.btn1:hover {
+    background-color: hsl(136, 72.80%, 68.20%);
+}
+
+.h1text{
+    font-size: 5rem;
+    overflow:hidden;
+}
+
+
+.imgheader {
+    background-image: url("/images/bg-intro-desktop.svg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-body h5{
+    overflow: hidden;
+}
+
+.footer{
+    background-color: hsl(233, 26%, 24%);
+}
+
+@media (max-width: 760px) {
+    .mobileimgheader {
+    background-image: url("/images/bg-intro-mobile.svg");
+    position: relative;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.h1text{
+    font-size: 3.4rem;
+    overflow:hidden;
+}
+
+.textsm {
+    text-align: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
+
+@media (max-width: 576px) {
+    .mobileimgheader {
+    background-image: url("/images/bg-intro-mobile.svg");
+    position: relative;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.h1text{
+    font-size: 3.4rem;
+    overflow:hidden;
+}
+
+.textsm {
+    text-align: center;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+}
